@@ -78,7 +78,7 @@ const Home = () => {
   </div>
 </section>
 
-<section className="main min-h-screen flex flex-col items-center justify-center">
+<section id="project" className="main min-h-screen flex flex-col items-center justify-center">
   <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white">
     Let's Show Our Project
   </h1>

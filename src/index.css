@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body{
+    
     @apply font-poppins bg-gray-950
 }
 
+section{
+    scroll-behavior: smooth;
+}
 .main {
     background-image: url('../src/assets/hero.jpeg');
     background-size: cover;

@@ -20,9 +20,9 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link className="text-lg hover:bg-white hover:text-black px-9 rounded-full py-2">
+              <a href='#project' className="text-lg hover:bg-white hover:text-black px-9 rounded-full py-2">
                 Project
-              </Link>
+              </a>
             </li>
             <li>
               <Link className="text-lg hover:bg-white hover:text-black px-9 rounded-full py-2">
