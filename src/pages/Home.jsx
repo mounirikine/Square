@@ -190,8 +190,9 @@ const Home = () => {
           </form>
         </div>
       </section>
-      <section className="bg-gray-950">
+      <section className="bg-gray-950 bottom-0 py-3">
         <Footer />
+        
       </section>
     </>
   );
