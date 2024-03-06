@@ -36,10 +36,10 @@ const Home = () => {
     </p>
 
     <div className="flex flex-col sm:flex-row items-center mx-auto gap-4 py-8">
-      <Link className="w-full sm:w-auto px-6 sm:px-10 py-2 bg-white text-black rounded-full mb-4 sm:mb-0">
+      <Link className="w-full sm:w-auto px-6 sm:px-10 py-2 bg-white text-black rounded-full mb-4 sm:mb-0 flex items-center justify-center">
         Contact us
       </Link>
-      <Link className="w-full sm:w-auto px-6 sm:px-10 py-2 border text-white hover:bg-white hover:text-black hover:border-none rounded-full">
+      <Link className="w-full sm:w-auto px-6 sm:px-10 py-2 border text-white hover:bg-white hover:text-black hover:border-none rounded-full flex justify-center items-center">
         See Our Work
       </Link>
     </div>

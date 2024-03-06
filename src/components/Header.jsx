@@ -31,7 +31,7 @@ const Header = () => {
             </li>
             <li>
               <Link className="text-lg hover:bg-white hover:text-black px-9 rounded-full py-2">
-                Contact
+                About
               </Link>
             </li>
           </ul>
@@ -60,9 +60,17 @@ const Header = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu p-4 w-80 min-h-full bg-gray-950  text-white">
+            <ul className="menu p-4 w-80 min-h-full bg-gray-900  text-white pt-10">
               {/* Sidebar content here */}
+
+              <div className="w-2/12 pt-2 mb-4">
+          <Link to="/" className="text-2xl">
+            SQUARE
+          </Link>
+        </div>
+        <hr className="mb-4" />
               <li>
+                
               <Link className="text-lg mb-2 bg-white text-black px-9 rounded-full py-2">
                 Home
               </Link>
@@ -80,9 +88,14 @@ const Header = () => {
             </li>
             <li>
               <Link className="text-lg mb-2 text-white hover:bg-white hover:text-black px-9 rounded-full py-2">
-                Contact
+                About
               </Link>
             </li>
+            <div className="flex items-center justify-center py-3" >
+              <li className="py-2 px-10  w-full text-white flex items-center hover:bg-white hover:text-black justify-center text-lg rounded-full border">
+                Contact us
+              </li>
+            </div>
             </ul>
           </div>
         </div>
