@@ -60,7 +60,7 @@ const Header = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu p-4 w-80 min-h-full bg-gray-900  text-white pt-10">
+            <ul className="menu p-4 w-80 min-h-full z-[99999999999999] bg-gray-900  text-white pt-10">
               {/* Sidebar content here */}
 
               <div className="w-2/12 pt-2 mb-4">
