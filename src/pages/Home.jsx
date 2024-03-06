@@ -58,16 +58,9 @@ const Home = () => {
     <img src={i7} alt="" className="w-10 sm:w-32 mb-2 sm:mb-0" />
   </div>
   <div className="flex items-center justify-center px-5 sm:px-10 py-10">
-    <main className="relative">
-      <video
-        src={Vid}
-        className="h-[250px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] w-full rounded-xl object-cover"
-        controls={false}
-        autoPlay
-        loop
-        muted
-      ></video>
-      <div className="absolute inset-0 flex items-center justify-center flex-col text-white">
+    <main className="bg-gradient-to-r from-blue-800 to-indigo-900 relative bg-slate-100 w-full h-full  py-20cha lg:py-32">
+      
+      <div className="  flex items-center justify-center flex-col text-white">
         <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl py-1">SQUARE</h1>
         <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
           Ready for your new Website?
